@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: none;
+}
+
+@media Screen and (min-width:1020px) {
+    #xl {
+        display: block;
+        color: blue;
+    }
+}
+
+@media Screen and (max-width:700px) {
+    #lg {
+        display: block;
+        color: blue;
+        clear: both;
+    }
+}
+
+@media print and (min-width:300px) {
+    #xs {
+        height: 200px;
+        width: 200px;
+        display: block;
+        background-color: darkblue;
+        color: darkgreen;
+    }
+}
+
+@media Screen and (min-width:300px) and (max-width:1020) {
+    #mg {
+        display: block;
+        color: darkmagenta;
+    }
+}
+
+
+}
